@@ -15,11 +15,11 @@ li {
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text-color);
 }
 
 .portfolio .button {
@@ -36,23 +36,38 @@ body {
 
 .portfolio-item {
   text-decoration: none;
-  color: #434455;
+  color: var(--main-text-color);
 }
 
 .logo {
   color: var(--main-blue-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-word {
-  color: #2e2f42;
+  color: var(--main-header-color);
 }
 
 .site-nav .link {
   color: var(--main-header-color);
 }
 
+.hero {
+  background-color: var(--main-header-color);
+}
+
 .hero .header {
   color: white;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero .button {
@@ -62,4 +77,15 @@ body {
 
 .footer-text {
   color: white;
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.member-role {
+  text-align: center;
 }
