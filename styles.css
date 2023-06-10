@@ -1,0 +1,65 @@
+:root {
+  --main-blue-color: #4d5ae5;
+  --main-header-color: #2e2f42;
+  --main-text-color: #434455;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--main-header-color);
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.portfolio .button {
+  color: var(--main-blue-color);
+  background-color: #e7e9fc;
+  border-color: transparent;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: white;
+  background-color: #404bbf;
+}
+
+.portfolio-item {
+  text-decoration: none;
+  color: #434455;
+}
+
+.logo {
+  color: var(--main-blue-color);
+}
+
+.logo-word {
+  color: #2e2f42;
+}
+
+.site-nav .link {
+  color: var(--main-header-color);
+}
+
+.hero .header {
+  color: white;
+}
+
+.hero .button {
+  color: white;
+  background-color: var(--main-blue-color);
+}
+
+.footer-text {
+  color: white;
+}
