@@ -10,7 +10,7 @@ h3 {
   color: var(--main-header-color);
 }
 
-li {
+.list {
   list-style: none;
 }
 
@@ -20,6 +20,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .portfolio .button {
@@ -30,12 +35,11 @@ body {
 
 .portfolio .button:hover,
 .portfolio .button:focus {
-  color: white;
+  color: #ffffff;
   background-color: #404bbf;
 }
 
 .portfolio-item {
-  text-decoration: none;
   color: var(--main-text-color);
 }
 
@@ -55,6 +59,10 @@ body {
 
 .site-nav .link {
   color: var(--main-header-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -62,7 +70,7 @@ body {
 }
 
 .hero .header {
-  color: white;
+  color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -71,12 +79,12 @@ body {
 }
 
 .hero .button {
-  color: white;
+  color: #ffffff;
   background-color: var(--main-blue-color);
 }
 
 .footer-text {
-  color: white;
+  color: #ffffff;
 }
 
 .member-name {
