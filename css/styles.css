@@ -112,6 +112,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .member-role {
@@ -126,4 +127,29 @@ body {
 .address-nav .link:hover,
 .address-nav .link:focus {
   color: var(--link-hover-color);
+}
+
+.traits .header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.projects .header,
+.our-team .header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-team .member-card {
+  background-color: #ffffff;
 }
