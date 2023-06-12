@@ -2,6 +2,7 @@
   --main-blue-color: #4d5ae5;
   --main-header-color: #2e2f42;
   --main-text-color: #434455;
+  --link-hover-color: #404bbf;
 }
 
 h1,
@@ -36,7 +37,7 @@ body {
 .portfolio .button:hover,
 .portfolio .button:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--link-hover-color);
 }
 
 .portfolio-item {
@@ -63,6 +64,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--link-hover-color);
 }
 
 .hero {
@@ -96,4 +102,14 @@ body {
 
 .member-role {
   text-align: center;
+}
+
+.address-nav .link {
+  font-style: normal;
+  color: var(--main-text-color);
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: var(--link-hover-color);
 }
