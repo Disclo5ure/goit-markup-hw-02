@@ -3,6 +3,7 @@
   --main-header-color: #2e2f42;
   --main-text-color: #434455;
   --link-hover-color: #404bbf;
+  --cloud: #f4f4fd;
 }
 
 h1,
@@ -38,6 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .portfolio .button:hover,
@@ -94,6 +96,8 @@ body {
   color: #ffffff;
   background-color: var(--main-blue-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
 }
@@ -137,7 +141,7 @@ body {
 }
 
 .our-team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .projects .header,
@@ -152,4 +156,12 @@ body {
 
 .our-team .member-card {
   background-color: #ffffff;
+}
+
+.footer {
+  background-color: var(--main-header-color);
+}
+
+.footer .logo-word {
+  color: var(--cloud);
 }
