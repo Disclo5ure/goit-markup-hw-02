@@ -42,6 +42,16 @@ body {
   cursor: pointer;
 }
 
+.portfolio .header {
+  color: var(--main-header-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .portfolio .button:hover,
 .portfolio .button:focus {
   color: #ffffff;
