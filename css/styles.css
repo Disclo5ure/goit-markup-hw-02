@@ -31,9 +31,9 @@ body {
 
 .portfolio .button {
   color: var(--main-blue-color);
-  background-color: #e7e9fc;
+  background-color: var(--cloud);
   border-color: transparent;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
