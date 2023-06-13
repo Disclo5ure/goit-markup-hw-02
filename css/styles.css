@@ -12,6 +12,10 @@ h3 {
   color: var(--main-header-color);
 }
 
+address {
+  font-style: normal;
+}
+
 .list {
   list-style: none;
 }
@@ -95,11 +99,13 @@ body {
 .hero .button {
   color: #ffffff;
   background-color: var(--main-blue-color);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero .button:hover,
@@ -108,7 +114,7 @@ body {
 }
 
 .footer-text {
-  color: #ffffff;
+  color: var(--cloud);
 }
 
 .member-name {
@@ -124,7 +130,6 @@ body {
 }
 
 .address-nav .link {
-  font-style: normal;
   color: var(--main-text-color);
 }
 
